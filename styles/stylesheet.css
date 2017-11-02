@@ -1,0 +1,114 @@
+/*content wrapper center it, width on elements as well, ● font family & font colors
+● color palette
+● nav bar
+● sidebar
+● footer
+● article*/
+
+body {
+/*  change background and set global font family*/
+  font-family: sans-serif;
+}
+
+.content-wrapper {
+  background-color: black;
+  width:auto;
+  height:80%;
+}
+header h1 {
+/*  Make bigger and color, san serif*/
+  color: #8267aa;
+  text-align: center;
+  font-size: 45px;
+  margin: 40px 0px 20px 0px; 
+}
+
+
+.main-nav {
+  /*  color, remove bullets, border, float the elements, center content in links, san serif, width, font color, san serif font family */
+  height: 43px;  
+  width: auto; 
+  background-color: #8468b3;
+}
+
+
+
+.main-nav ul a{
+  /*  color, remove bullets, border, float the elements, center content in links, san serif, width, font color, san serif font family */
+  float: left;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 75px;  
+  border-right: 3px solid #663399;
+  line-height: 3px;
+   
+  
+}
+#noline {
+  border-right:none;
+}
+
+aside {
+/*  clear float: background color, float, font color, width on links, center it */
+  background-color: #c0b2d5; 
+  width:20%;
+  height: 600px;
+  display: inline-block;
+
+}
+aside ul a{
+/*  clear both,*/
+  clear:both;
+  color:white; 
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  padding: 30px 0px 0px 0px;
+  
+}
+aside img { 
+  display: inline-block;
+  width:100px;
+  padding: 0px 90px 0px 90px;
+  text-align: center;
+}
+
+
+section {
+/*background color, float to the right?,  */
+  background-color: lightgray; 
+  width:80%;
+  height: 600px;
+  float:right;
+
+}
+  figure {
+  margin: auto;  
+  overflow: hidden;
+  text-align: center; 
+  padding: 100px 200px;
+  clear: both;  
+  }  
+  /*  within figure, center it using margin:auto */
+
+section figcaption {
+  margin-top: 30px;
+}
+figure img { 
+  padding-bottom: 40px; 
+  width: 400px;
+}
+footer {
+   display: block;
+    margin: auto;
+    width: 30%;
+}
+footer img {
+/*  images float left and center on the page*/
+  float: left; 
+  padding: 40px 30px;
+ 
+}
