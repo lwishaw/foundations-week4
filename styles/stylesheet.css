@@ -12,7 +12,7 @@ body {
 
 .content-wrapper {
   background-color: black;
-  width:80%;
+  width:100%;
 }
 header h1 {
 /*  Make bigger and color, san serif*/
@@ -26,7 +26,7 @@ header h1 {
 .main-nav {
   /*  color, remove bullets, border, float the elements, center content in links, san serif, width, font color, san serif font family */
   height: 45px;  
-  width: auto; 
+  width: inherit; 
   background-color: #8468b3;
 }
 
@@ -81,11 +81,8 @@ aside ul a{
 }
 aside img { 
   clear:both;
-  display: inline-block;
-  width:100px;
-  padding: 0px 80px 10px;
-  text-align: center;
-  margin: 0;
+  display: block;
+  margin: 0px 40px 5px 40px;
 }
 
 
@@ -119,6 +116,8 @@ footer {
   float: left; 
   padding: 0px 60px;  
 }
-
+footer a {
+  padding: 0px 10px;
+}
 
 
