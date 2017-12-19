@@ -12,8 +12,7 @@ body {
 
 .content-wrapper {
   background-color: black;
-  width:auto;
-  height:80%;
+  width:80%;
 }
 header h1 {
 /*  Make bigger and color, san serif*/
@@ -26,32 +25,42 @@ header h1 {
 
 .main-nav {
   /*  color, remove bullets, border, float the elements, center content in links, san serif, width, font color, san serif font family */
-  height: 43px;  
+  height: 45px;  
   width: auto; 
   background-color: #8468b3;
 }
 
 
 
+nav li {
+  display: inline-block;
+  margin: 0px 25px;
+
+
+
+}
 .main-nav ul a{
   /*  color, remove bullets, border, float the elements, center content in links, san serif, width, font color, san serif font family */
   float: left;
   color: white;
   list-style-type: none;
   text-decoration: none;
-  text-align: center;
-  padding: 20px 75px;  
-  border-right: 3px solid #663399;
-  line-height: 3px;
-   
-  
+  border-right: 2px solid #663399;
+  height: 30px;
+  padding: 15px 50px 0px 0px; 
 }
+  
+  
 #noline {
-  border-right:none;
+  border-right: none;
 }
 
 aside {
 /*  clear float: background color, float, font color, width on links, center it */
+/*
+  clear: both;
+  margin:0;
+*/
   background-color: #c0b2d5; 
   width:20%;
   height: 600px;
@@ -66,14 +75,17 @@ aside ul a{
   text-decoration: none;
   text-align: center; 
   display: block;
-  padding: 30px 0px 0px 0px;
-  
+  padding: 40px 20px 0px 0px;
+  margin:0;
+
 }
 aside img { 
+  clear:both;
   display: inline-block;
   width:100px;
-  padding: 0px 90px 0px 90px;
+  padding: 0px 80px 10px;
   text-align: center;
+  margin: 0;
 }
 
 
@@ -82,12 +94,12 @@ section {
   background-color: lightgray; 
   width:80%;
   height: 600px;
-  float:right;
+  float: right;
+  margin:0;
 
 }
   figure {
   margin: auto;  
-  overflow: hidden;
   text-align: center; 
   padding: 100px 200px;
   clear: both;  
@@ -102,13 +114,11 @@ figure img {
   width: 400px;
 }
 footer {
-   display: block;
-    margin: auto;
-    width: 30%;
-}
-footer img {
-/*  images float left and center on the page*/
+/*   display: block;*/
+  margin: 20px 300px;
   float: left; 
-  padding: 40px 30px;
- 
+  padding: 0px 60px;  
 }
+
+
+
